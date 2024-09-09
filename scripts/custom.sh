@@ -12,9 +12,9 @@ python -u run.py \
   --e_layers 2 \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 38 \
-  --dec_in 38 \
-  --c_out 1 \
+  --enc_in 7 \
+  --dec_in 7 \
+  --c_out 7 \
   --des 'Exp' \
   --d_model 512 \
   --itr 3 \
