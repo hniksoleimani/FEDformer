@@ -5,7 +5,7 @@ python -u run.py \
   --task_id test \
   --model FEDformer \
   --data ETTm1 \
-  --features M \
+  --features MS \
   --seq_len 96 \
   --label_len 48 \
   --pred_len 96 \
@@ -14,7 +14,7 @@ python -u run.py \
   --factor 3 \
   --enc_in 38 \
   --dec_in 38 \
-  --c_out 38 \
+  --c_out 1 \
   --des 'Exp' \
   --d_model 512 \
   --itr 3 \
