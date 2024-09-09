@@ -5,16 +5,16 @@ python -u run.py \
   --task_id test \
   --model FEDformer \
   --data ETTm1 \
-  --features MS \
+  --features M \
   --seq_len 96 \
   --label_len 48 \
   --pred_len 96 \
   --e_layers 2 \
   --d_layers 1 \
   --factor 3 \
-  --enc_in 7 \
-  --dec_in 7 \
-  --c_out 7 \
+  --enc_in 38 \
+  --dec_in 38 \
+  --c_out 38 \
   --des 'Exp' \
   --d_model 512 \
   --itr 3 \
