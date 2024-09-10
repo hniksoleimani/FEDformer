@@ -53,8 +53,8 @@ def main():
     # parser.add_argument('--cross_activation', type=str, default='tanh'
 
     # model define
-    parser.add_argument('--enc_in', type=int, default=7, help='encoder input size')
-    parser.add_argument('--dec_in', type=int, default=7, help='decoder input size')
+    parser.add_argument('--enc_in', type=int, default=36, help='encoder input size')
+    parser.add_argument('--dec_in', type=int, default=36, help='decoder input size')
     parser.add_argument('--c_out', type=int, default=1, help='output size')
     parser.add_argument('--d_model', type=int, default=32, help='dimension of model')
     parser.add_argument('--n_heads', type=int, default=8, help='num of heads')
